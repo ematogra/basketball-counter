@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: rgb(183, 129, 30);
+}
+
+/* .column {
+  background: #ff0000;
+} */
+
+
+h3 {
+    /* board-title-home */
+
+/* 
+  position: absolute; */
+  width: 149px;
+  height: 36px;
+  left: 85px;
+  top: 68px;
+
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  /* identical to box height, or 90% */
+  /* margin-top: 100px; */
+  /* margin: auto; */
+  text-align: center;
+  /* background: #00ff2f; */
+  color: #EEEEEE;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.score {
+  /* background: #0a0001;
+  font-size: 90px;
+  color: #F94F6D;
+  width: 120px;
+  margin: 20px; */
+    /* home-points-text */
+
+  /* margin-top: 100px; */
+  margin: auto;
+  background: #0a0001;
+  width: 147px;
+  height: 120px;
+  left: 100px;
+  top: 125px;
+
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  /* or 141% */
+
+  text-align: center;
+
+  color: #F94F6D;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  /* position: relative; */
+  margin-top: 100px;
+  margin: auto;
+  width: 575px;
+  height: 385px;
+  border-radius: 10px;
+  background: #1B244A;
+}
+
+.button-container {
+  /* position: absolute; */
+  margin: auto;
+  /* background: #00ff2f; */
+  margin-top: 40px;
+  width: 155px;
+  height: 45px;
+  left: 82px;
+  top: 271px;
+}
+
+button {
+  background: none;
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 45px;
+  height: 45px;
+  left: 82px;
+  top: 271px;
+
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  font-family: 'Cursed Timer ULiL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 155% */
+
+  text-align: center;
+
+  color: #9AABD8;
+}
+
+
+
